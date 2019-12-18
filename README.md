@@ -208,6 +208,8 @@ xmlhttp.send(null/string); string仅用于post请求
 
 
 
+
+
 ## JS ES6 新增语法
 
 1. 声明变量关键字：let、const
