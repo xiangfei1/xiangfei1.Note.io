@@ -61,3 +61,39 @@
    + BetterScroll是一款解决移动端各种滚动场景需求的插件
    + 封装轮播图
    + 实现窗口的滚动效果
+   
+9. js-pinyin
+
+   + 汉子拼音转换工具
+
+10. mixin
+
+    + 混入提供了一种非常灵活的方式，来分发Vue组件中的可复用的功能，一个混入对象可以包含任意组件选项
+
+      ```js
+      //官网上的例子
+      var mixin = {
+        data: function () {
+          return {
+            message: 'hello',
+            foo: 'abc'
+          }
+        }
+      }
+      
+      new Vue({
+        mixins: [mixin],
+        data: function () {
+          return {
+            message: 'goodbye',
+            bar: 'def'
+          }
+        },
+        created: function () {
+          console.log(this.$data)
+          // => { message: "goodbye", foo: "abc", bar: "def" }
+        }
+      })
+      ```
+
+      
