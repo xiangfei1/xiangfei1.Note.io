@@ -56,17 +56,27 @@
 
      ![test2](./image/test2.jpg)
    
-8. better-scroll
+8. Vuex
+
+   + Vuex是一个专为Vue.js应用程序开发的状态管理模式，它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化。
+   + 每一个Vuex应用的核心就是store库。Vuex的状态是响应式的，但不能直接改变store中的状态，唯一的途径是显示地提交mutation。
+   + 它的核心概念有State、Getter、Mutation、Action、Module
+
+9. transition
+
+   + 在特定情形中，给任何元素和组件添加进入/离开过渡
+
+10. better-scroll
 
    + BetterScroll是一款解决移动端各种滚动场景需求的插件
    + 封装轮播图
    + 实现窗口的滚动效果
-   
-9. js-pinyin
 
-   + 汉子拼音转换工具
+11. js-pinyin
 
-10. mixin
+    + 汉子拼音转换工具
+
+12. mixin
 
     + 混入提供了一种非常灵活的方式，来分发Vue组件中的可复用的功能，一个混入对象可以包含任意组件选项
 
